@@ -1,0 +1,6 @@
+---
+# Play vector installation
+- name: Install vector
+  hosts: vector
+  roles:
+    - vector
